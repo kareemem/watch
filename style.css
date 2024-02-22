@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.shadowWhite {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* nav */
+.bg-body-tertiary {
+    background-color: rgb(52, 58, 64) !important;
+}
+nav li a,
+nav,
+nav li button {
+    color: white !important;
+}
+nav li a {
+    font-weight: 600;
+}
+nav li a:hover {
+    opacity: 0.75;
+    position: relative;
+    left: 5px;
+}
+.navbar-brand {
+    color: #cecece;
+    font-size: 1.875rem;
+    font-weight: bolder;
+}
+/* header */
+header {
+    background-image: url("img/watch-oversize.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+    color: rgb(4, 80, 137);
+}
+header button {
+    font-weight: 600;
+    color: white;
+    line-height: 3.125rem;
+    font-size: 2.0625rem;
+    background-color: rgb(4, 80, 137);
+    border: solid 0.0625rem rgb(4, 80, 137);
+    transition-duration: 1s;
+}
+header button:hover {
+    background-color: white;
+    color: rgb(4, 80, 137);
+}
+/* section watch */
+.watch {
+    background-image: url("img/swimmer_02.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.watch img {
+    transition-duration: 1s;
+}
+.watch img:hover {
+    transform: scale(1.1, 1.1);
+}
+/* section featuresWatch */
+.featuresWatch i {
+    background-color: rgb(4, 80, 137);
+    color: white;
+    font-size: 3.125rem;
+    font-weight: 900;
+}
+.featuresWatch {
+    background-image: url("img/watches-splash.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.featuresWatch h3 {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: 500;
+    color: rgb(33, 37, 41);
+}
+.featuresWatch p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(160, 160, 160);
+}
+.featuresWatch .contentFeatureWatch {
+    transition-duration: 1s;
+}
+.featuresWatch .contentFeatureWatch:hover {
+    margin-top: -10px;
+}
+/* section PowerfulTool */
+.PowerfulTool h3 .imgCover h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 2.125rem;
+    color: rgb(33, 37, 41);
+}
+.PowerfulTool p .imgCover p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(160, 160, 160);
+}
+.PowerfulTool i,
+.imgCover i {
+    font-weight: 900;
+    font-size: 3.125rem;
+    color: rgb(4, 80, 137);
+}
+.imgCover {
+    background-image: url("img/para-watch.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* section gallery */
+.gallery .layer {
+    background-color: rgb(249, 246, 247);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    transition-duration: 0.5s;
+}
+
+
+.gallery .layerHover:hover .layer{
+    top: 0;
+}
+/* footer */
+footer .titleFooter{
+    background-color: rgb(4, 80, 137);
+}
+footer .titleFooter h3 ,footer .titleFooter .btn{
+    color: rgb(242, 246, 249);
+}
+footer .titleFooter{
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: 500;
+}
+footer .titleFooter .btn{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+    background-color: transparent;
+    transition-duration: 0.5s;
+}
+footer .titleFooter .btn:hover{
+    background-color: rgb(242, 246, 249);
+    color: black;
+}
+
+footer .contact{
+    background-color: #292E31;
+}
+footer .contact h3{
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: 500;
+    color: rgb(242, 246, 249);
+}
+footer .contact p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(160, 160, 160);
+}
+footer .contact h5{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: rgb(242, 246, 249);
+}
+footer .contact .btn{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(242, 246, 249);
+}
+footer .contact .iconF li{
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(160, 160, 160);
+}
+footer .contact .iconF li span{
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+footer .contact .iconF li i{
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+footer .contact .iconF li i:hover{
+    color: rgb(199, 204, 209);
+}
+footer .contact .iconF li span:hover{
+    color: rgb(199, 204, 209);
+}
+footer .contact .socailMedia i{
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(160, 160, 160);
+    transition-duration: 0.5s;
+}
+footer .contact .socailMedia i:hover{
+    color: rgb(199, 204, 209);
+}
+footer .contact input{
+    background-color: transparent;
+    color: white ;
+    border: solid 1px rgb(160, 160, 160);
+}
+footer .contact input:focus{
+    outline: none;
+    border-color: white;
+}
+footer .contact form .btn{
+    background-color: rgb(38, 99, 146);
+    color: rgb(199, 204, 209);
+    transition-duration: 0.5s;
+    border: solid 1px white;
+}
+footer .contact form .btn:hover{
+    background-color: rgb(4, 80, 137);
+}
+footer .endFooter{
+    background-color: rgb(35, 39, 42);
+}
+footer .endFooter span{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(199, 204, 209);
+}
+footer .endFooter .h4{
+    font-size: 1.875rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    color: rgb(4, 80, 137);
+}
