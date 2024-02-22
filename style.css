@@ -9,6 +9,10 @@ body {
 .shadowWhite {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.showCover {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 /* nav */
 .bg-body-tertiary {
     background-color: rgb(52, 58, 64) !important;
@@ -35,8 +39,8 @@ nav li a:hover {
 header {
     background-image: url("img/watch-oversize.jpg");
     background-position: center center;
-    background-size: cover;
     background-attachment: fixed;
+    background-size: 100% 100%;
 }
 header h2 {
     font-size: 2.5rem;
@@ -138,120 +142,118 @@ header button:hover {
     transition-duration: 0.5s;
 }
 
-
-.gallery .layerHover:hover .layer{
+.gallery .layerHover:hover .layer {
     top: 0;
 }
 /* footer */
-footer .titleFooter{
+footer .titleFooter {
     background-color: rgb(4, 80, 137);
 }
-footer .titleFooter h3 ,footer .titleFooter .btn{
+footer .titleFooter h3,
+footer .titleFooter .btn {
     color: rgb(242, 246, 249);
 }
-footer .titleFooter{
+footer .titleFooter {
     font-size: 1.75rem;
     line-height: 2.125rem;
     font-weight: 500;
 }
-footer .titleFooter .btn{
+footer .titleFooter .btn {
     font-size: 1.5rem;
     line-height: 2.25rem;
     font-weight: 500;
     background-color: transparent;
     transition-duration: 0.5s;
 }
-footer .titleFooter .btn:hover{
+footer .titleFooter .btn:hover {
     background-color: rgb(242, 246, 249);
     color: black;
 }
 
-footer .contact{
-    background-color: #292E31;
+footer .contact {
+    background-color: #292e31;
 }
-footer .contact h3{
+footer .contact h3 {
     font-size: 1.75rem;
     line-height: 2.125rem;
     font-weight: 500;
     color: rgb(242, 246, 249);
 }
-footer .contact p{
+footer .contact p {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 400;
     color: rgb(160, 160, 160);
 }
-footer .contact h5{
+footer .contact h5 {
     font-size: 1.25rem;
     line-height: 1.5rem;
     font-weight: 500;
     color: rgb(242, 246, 249);
 }
-footer .contact .btn{
+footer .contact .btn {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 400;
     color: rgb(242, 246, 249);
 }
-footer .contact .iconF li{
+footer .contact .iconF li {
     list-style-type: none;
     font-size: 1rem;
     font-weight: 400;
     color: rgb(160, 160, 160);
 }
-footer .contact .iconF li span{
+footer .contact .iconF li span {
     transition-duration: 0.5s;
     cursor: pointer;
-
 }
-footer .contact .iconF li i{
+footer .contact .iconF li i {
     transition-duration: 0.5s;
     cursor: pointer;
-
 }
-footer .contact .iconF li i:hover{
+footer .contact .iconF li i:hover {
     color: rgb(199, 204, 209);
 }
-footer .contact .iconF li span:hover{
+footer .contact .iconF li span:hover {
     color: rgb(199, 204, 209);
 }
-footer .contact .socailMedia i{
+footer .contact .socailMedia i {
     font-size: 32px;
     font-weight: 400;
     color: rgb(160, 160, 160);
     transition-duration: 0.5s;
 }
-footer .contact .socailMedia i:hover{
+footer .contact .socailMedia i:hover {
     color: rgb(199, 204, 209);
 }
-footer .contact input{
+footer .contact input {
     background-color: transparent;
-    color: white ;
+    color: white;
     border: solid 1px rgb(160, 160, 160);
 }
-footer .contact input:focus{
+footer .contact input:focus {
     outline: none;
     border-color: white;
 }
-footer .contact form .btn{
+footer .contact form .btn {
     background-color: rgb(38, 99, 146);
     color: rgb(199, 204, 209);
     transition-duration: 0.5s;
     border: solid 1px white;
 }
-footer .contact form .btn:hover{
+footer .contact form .btn:hover {
     background-color: rgb(4, 80, 137);
 }
-footer .endFooter{
+footer .endFooter {
     background-color: rgb(35, 39, 42);
 }
-footer .endFooter span{
+footer .endFooter span {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
     color: rgb(199, 204, 209);
 }
-footer .endFooter .h4{
+footer .endFooter .h4 {
     font-size: 1.875rem;
     font-weight: 500;
     line-height: 2.25rem;
