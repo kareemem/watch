@@ -14,10 +14,17 @@
         />
         <!-- links style sheet -->
         <link rel="shortcut icon" type="image" href="img/watch-3up-2.jpg" />
+        <link rel="stylesheet" href="wow/animate.css" />
         <link rel="stylesheet" href="Bootstrap/bootstrap.min.css" />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <a href="#home" id="top" class="btn">
+            <i class="fas fa-arrow-up fa-bounce rounded-circle p-3"></i>
+        </a>
+        <div id="load" class="d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-spinner fa-spin fa-beat"></i>
+        </div>
         <nav
             class="navbar navbar-expand-lg bg-body-tertiary position-fixed z-3 top-0 start-0 end-0"
         >
@@ -74,7 +81,10 @@
                 </div>
             </div>
         </nav>
-        <header class="vh-100 d-flex justify-content-start align-items-center">
+        <header
+            id="home"
+            class="vh-100 d-flex justify-content-start align-items-center"
+        >
             <div class="container-md">
                 <h2>
                     So Much More
@@ -89,21 +99,30 @@
         <section class="watch">
             <div class="bg-white p-5 d-flex justify-content-center">
                 <div class="row my-5">
-                    <div class="col-md-4">
+                    <div
+                        class="col-md-4 wow slideInLeft"
+                        data-wow-duration="2s"
+                    >
                         <img
                             class="w-100"
                             src="img/watch-3up-1.jpg"
                             alt="img watchUp"
                         />
                     </div>
-                    <div class="col-md-4">
+                    <div
+                        class="col-md-4 wow slideInDown"
+                        data-wow-duration="2s"
+                    >
                         <img
                             class="w-100"
                             src="img/watch-3up-2.jpg"
                             alt="img watchUp"
                         />
                     </div>
-                    <div class="col-md-4">
+                    <div
+                        class="col-md-4 wow slideInRight"
+                        data-wow-duration="2s"
+                    >
                         <img
                             class="w-100"
                             src="img/watch-3up-3.jpg"
@@ -173,7 +192,10 @@
                     condimentum.
                 </p>
                 <div class="mt-5 p-5">
-                    <div class="d-flex justify-content-end align-items-center">
+                    <div
+                        class="d-flex justify-content-end align-items-center wow slideInDown"
+                        data-wow-duration="1s"
+                    >
                         <div class="text-end me-3">
                             <h3>Easy Form Builder</h3>
                             <p>
@@ -187,7 +209,9 @@
                         </div>
                     </div>
                     <div
-                        class="my-4 d-flex justify-content-end align-items-center"
+                        class="my-4 d-flex justify-content-end align-items-center wow slideInDown"
+                        data-wow-duration="1s"
+                        data-wow-delay="0.5s"
                     >
                         <div class="text-end me-3">
                             <h3>Stunning Showcases</h3>
@@ -201,7 +225,11 @@
                             <i class="fa-regular fa-lightbulb"></i>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-end align-items-center">
+                    <div
+                        class="d-flex justify-content-end align-items-center wow slideInDown"
+                        data-wow-duration="1s"
+                        data-wow-delay="1s"
+                    >
                         <div class="text-end me-3">
                             <h3>Fully Customizable</h3>
                             <p>
@@ -223,7 +251,8 @@
             <div class="bg-white">
                 <div class="container-md">
                     <div
-                        class="d-flex justify-content-start align-items-center"
+                        class="d-flex justify-content-start align-items-center wow slideInDown"
+                        data-wow-duration="1s"
                     >
                         <div>
                             <i class="fa-regular fa-compass"></i>
@@ -238,7 +267,9 @@
                         </div>
                     </div>
                     <div
-                        class="my-4 d-flex justify-content-start align-items-center"
+                        class="my-4 d-flex justify-content-start align-items-center wow slideInDown"
+                        data-wow-duration="1s"
+                        data-wow-delay="0.5s"
                     >
                         <div>
                             <i class="fa-regular fa-star"></i>
@@ -253,7 +284,9 @@
                         </div>
                     </div>
                     <div
-                        class="d-flex pb-4 justify-content-start align-items-center"
+                        class="d-flex pb-4 justify-content-start align-items-center wow slideInDown"
+                        data-wow-duration="1s"
+                        data-wow-delay="1s"
                     >
                         <div>
                             <i class="fa-solid fa-cloud-arrow-down"></i>
@@ -427,9 +460,13 @@
                 </div>
             </div>
             <div class="endFooter text-center p-3">
-                <span>created by </span><span class="h4">Kareem Emad</span>
+                <span>created by </span
+                ><span class="h4 wow flash" data-wow-duration="1s"
+                    >Kareem Emad</span
+                >
             </div>
         </footer>
+        <script src="wow/wow.min.js"></script>
         <script src="Bootstrap/bootstrap.bundle.min.js"></script>
         <script src="jquery/jquery-3.7.0.min.js"></script>
         <script src="watch.js"></script>

@@ -5,6 +5,7 @@
 }
 body {
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .shadowWhite {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -12,6 +13,48 @@ body {
 .showCover {
     padding-top: 200px;
     padding-bottom: 200px;
+}
+/* load */
+#load {
+    background-color: #343a40;
+    height: 100vh;
+}
+
+#load i {
+    font-size: 3.125rem;
+    color: rgb(38, 99, 146);
+}
+/* scroll */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(35, 39, 42);
+}
+/* button top */
+#top {
+    position: fixed;
+    bottom: 1.875rem;
+    right: 1.875rem;
+    z-index: 9999;
+    display: none;
+}
+#top i {
+    background-color: rgb(38, 99, 146);
+    color: rgb(52, 58, 64);
+    font-size: 1.25rem;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(38, 99, 146);
+    border-radius: 3.125rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(4, 80, 137);
 }
 /* nav */
 .bg-body-tertiary {
@@ -65,7 +108,7 @@ header button:hover {
 .watch {
     background-image: url("img/swimmer_02.jpg");
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
 }
 .watch img {
@@ -127,7 +170,7 @@ header button:hover {
 .imgCover {
     background-image: url("img/para-watch.jpg");
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
 }
 /* section gallery */
